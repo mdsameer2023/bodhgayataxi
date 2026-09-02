@@ -1,0 +1,27 @@
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# PHP dependencies
+/vendor/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+/cache/
+/tmp/
+
+# IDE and editor settings
+/.idea/
+/.vscode/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
