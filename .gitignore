@@ -25,3 +25,6 @@
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Local Windows sandbox artifacts
+/%SystemDrive%/

@@ -1,0 +1,2 @@
+# Block secret files and hidden directories on Apache.
+RedirectMatch 404 /\.

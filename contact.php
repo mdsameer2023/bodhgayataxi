@@ -43,8 +43,9 @@
                 </div>
                 <div class="col-md-6">
                     <div class="contact-form">
-                        <form action="https://html.dynamiclayers.net/dl/ridek/contact.php" method="post"
+                        <form action="api/contact.php" method="post"
                             id="ajax_contact" class="form-horizontal">
+                            <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
                             <div class="contact-title">
                                 <h2>Contact With Us! <span></span></h2>
                             </div>
@@ -70,10 +71,10 @@
                                         placeholder="Message" required></textarea>
                                 </div>
                                 <div class="form-field">
-                                    <button id="submit" class="default-btn" type="submit">Send Massage</button>
+                                    <button id="submit" class="default-btn" type="submit">Send Message</button>
                                 </div>
                             </div>
-                            <div id="form-messages" class="alert" role="alert"></div>
+                            <div id="form-messages" class="alert" role="status" aria-live="polite" style="display:none"></div>
                         </form>
                     </div>
                 </div>

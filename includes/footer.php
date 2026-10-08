@@ -120,6 +120,7 @@
 <script src="assets/js/vendor/smooth-scroll.js"></script>
 <script src="assets/js/vendor/wow.min.js"></script>
 <script src="assets/js/book-ride.js"></script>
+<script src="assets/js/contact.js"></script>
 <script src="assets/js/main.js"></script>
 <script>
 (function() {

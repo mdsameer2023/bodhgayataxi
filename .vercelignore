@@ -1,0 +1,12 @@
+.git/
+.env
+.env.*
+%SystemDrive%/
+tmp/
+cache/
+*.log
+*.zip
+*.bak
+*.backup
+router.php
+README.md

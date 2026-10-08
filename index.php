@@ -190,7 +190,8 @@
                             <h4><span></span>Online Booking</h4>
                             <h2 class="white">Book Your Taxi Ride</h2>
                         </div>
-                        <form action="#" id="book-taxi-ride">
+                        <form action="api/booking.php" method="post" id="book-taxi-ride">
+                            <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
                             <div class="booking-form">
                                 <div class="form-field">
                                     <i class="las la-user-tie"></i>
@@ -205,7 +206,7 @@
                                 <div class="form-field">
                                     <i class="las la-tags"></i>
                                     <select name="package-type" id="type" class="niceSelect">
-                                        <option value="Choose Vehicle">Choose Vehicle</option>
+                                        <option value="" disabled selected>Choose Vehicle</option>
                                         <option value="ertiga">Ertiga</option>
                                         <option value="swift-dzire">Swift Dzire</option>
                                         <option value="innova_crysta">Innova Crysta</option>
@@ -247,7 +248,7 @@
                                     <button id="submit" class="default-btn" type="submit">Book Your Taxi</button>
                                 </div>
                             </div>
-                            <div id="form-messages" class="alert" role="alert"></div>
+                            <div id="form-messages" class="alert" role="status" aria-live="polite" style="display:none"></div>
                         </form><!-- Booking Form -->
                     </div>
                 </div>

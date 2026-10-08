@@ -22,7 +22,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
-                    <form action="#" id="book-taxi-ride">
+                    <form action="api/booking.php" method="post" id="book-taxi-ride">
+                        <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
                         <div class="taxi-booking-form">
                             <div class="form-field">
                                 <i class="las la-user-tie"></i>
@@ -72,7 +73,7 @@
                                 <button id="submit" class="default-btn" type="submit">Book Your Taxi</button>
                             </div>
                         </div>
-                        <div id="form-messages" class="alert" role="alert"></div>
+                        <div id="form-messages" class="alert" role="status" aria-live="polite" style="display:none"></div>
                     </form><!-- Booking Form -->
                 </div>
             </div>
